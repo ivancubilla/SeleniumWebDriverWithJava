@@ -1,4 +1,5 @@
 # SeleniumWebDriverWithJava
-Test Automation practices:
-1.Login
-2.Dropdowns
+<h2>Test Automation practices: </h2>
+<ul>
+  <li>asldkaslk<li>
+</ul>
