@@ -1,5 +1,8 @@
 # SeleniumWebDriverWithJava
 <h2>Test Automation practices: </h2>
-<ul>
-  <li>asldkaslk<li>
-</ul>
+
+<li>Login Page<li>
+<li>Dropdowns<li>
+<li>Hovers<li>
+<li>Additional Keys<li>
+
