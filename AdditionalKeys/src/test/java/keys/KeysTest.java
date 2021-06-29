@@ -14,5 +14,6 @@ public class KeysTest extends BaseTest{
         KeyPressesPage keyPressesPage = homePage.clickKeyPresses();
         keyPressesPage.inputKey("A" + Keys.BACK_SPACE);
         Assert.assertEquals(keyPressesPage.textResult(), "You entered: BACK_SPACE");
+        Assert.assertEquals(keyPressesPage.textResult(),"You entered: BACK_SPAC","test fail");
     }
 }
