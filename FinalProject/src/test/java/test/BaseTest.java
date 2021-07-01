@@ -21,8 +21,8 @@ public class BaseTest {
         homePage = new HomePage(driver);
     }
 
-    /*@AfterClass
+    @AfterClass
     public void tearDown(){
         driver.quit();
-    }*/
+    }
 }

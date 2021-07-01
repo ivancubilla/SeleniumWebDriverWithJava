@@ -23,18 +23,4 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(secureAreaPage.verifySuccessfulLogin(),"You logged into a secure area!\n" +
                 "×");
     }
-    @Test
-    public void testDropDown(){
-        DropdownListPage dropdownListPage = homePage.clickDropdown();
-        dropdownListPage.dropdownByIndex(1);
-        dropdownListPage.dropdownByName("Option 2");
-        dropdownListPage.dropdownByValue(2);
-    }
-    @Test
-    public void testHovers(){
-        HoversPage hoversPage = homePage.clickHovers();
-        hoversPage.hoverOver(1);
-        hoversPage.clickViewProfile();
-        Assert.assertEquals(hoversPage.verifySuccessHovers(),"Not Found");
-    }
 }
