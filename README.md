@@ -5,4 +5,7 @@
 <li>Dropdowns</li>
 <li>Hovers</li>
 <li>Additional Keys</li>
-
+<li>Alerts</li>
+<li>File Uploads</li>
+<li>Modals</li>
+<li>Frames</li>
