@@ -17,11 +17,9 @@ public class WysiwygEditorPage {
     public void clearFrame(){
         switchToEditor();
         driver.findElement(textArea).clear();
-        switchToMainEditor();
     }
 
     public void setText(String textEditorFrame){
-        switchToEditor();
         driver.findElement(textArea).sendKeys(textEditorFrame);
         switchToMainEditor();
     }
@@ -29,7 +27,10 @@ public class WysiwygEditorPage {
         driver.findElement(increaseButton).click();
     }
 
-
+    public String textResult(){
+        switchToEditor();
+        return driver.findElement(textArea).getText();
+    }
 
     private void switchToEditor(){
         driver.switchTo().frame(iFrameEditor);
