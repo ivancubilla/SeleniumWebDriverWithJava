@@ -3,7 +3,7 @@ package hovers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HoversPage;
-import test.BaseTest;
+import base.test.BaseTest;
 
 public class HoversTest extends BaseTest {
 

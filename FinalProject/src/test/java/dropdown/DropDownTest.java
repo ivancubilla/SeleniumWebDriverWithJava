@@ -2,7 +2,7 @@ package dropdown;
 
 import org.testng.annotations.Test;
 import pages.DropdownListPage;
-import test.BaseTest;
+import base.test.BaseTest;
 
 public class DropDownTest extends BaseTest {
 

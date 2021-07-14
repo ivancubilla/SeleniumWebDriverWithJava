@@ -15,13 +15,16 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    public void setUserName(String fieldUsername) {
+    public void cleanField(){
         driver.findElement(username).clear(); // clear the field username
+        driver.findElement(password).clear(); // clear the field password
+    }
+
+    public void setUserName(String fieldUsername) {
         driver.findElement(username).sendKeys(fieldUsername); // complete the field username
     }
 
     public void setPassword(String fieldPassword) {
-        driver.findElement(password).clear(); // clear the field password
         driver.findElement(password).sendKeys(fieldPassword); // complete the field password
     }
 
