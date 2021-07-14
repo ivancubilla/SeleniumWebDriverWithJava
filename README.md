@@ -9,3 +9,4 @@
 <li>File Uploads</li>
 <li>Modals</li>
 <li>Frames</li>
+<li>Waits</li>
