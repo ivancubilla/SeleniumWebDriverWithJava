@@ -11,3 +11,4 @@
 <li>Frames</li>
 <li>Waits</li>
 <li>Navigation</li>
+<li>Tabs</li>
