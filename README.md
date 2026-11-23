@@ -1,14 +1,23 @@
-# SeleniumWebDriverWithJava
-<h2>Test Automation practices with a final project</h2>
+# Selenium WebDriver with Java
 
-<li>Login Page</li>
-<li>Dropdowns</li>
-<li>Hovers</li>
-<li>Additional Keys</li>
-<li>Alerts</li>
-<li>File Uploads</li>
-<li>Modals</li>
-<li>Frames</li>
-<li>Waits</li>
-<li>Navigation</li>
-<li>Tabs</li>
+A comprehensive practice repository covering foundational and advanced UI automation scenarios using **Java and Selenium WebDriver**.
+
+## Topics Covered
+
+- Login Page
+- Dropdowns
+- Hovers
+- Additional Keys
+- Alerts
+- File Uploads
+- Modals
+- Frames
+- Waits (Implicit, Explicit, Fluent)
+- Navigation
+- Tabs
+
+## How to run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ivancubilla/SeleniumWebDriverWithJavaSeleniumWebDriverWithJava.git
